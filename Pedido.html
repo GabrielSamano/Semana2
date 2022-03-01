@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0"
+    <title>Pedido</title>
+</head>
+<body>
+    <h1>Aqui se hace el pedido</h1>
+    <h2>Datos Necesarios</h2>
+    <form action="Pedido.js">
+        <label for="Nombre">Danos tu Nombre</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+        <br><br>
+        <label for="Dirección">Danos tu Dirección</label><br>
+        <input type="text" id="Dirección" name="Dirección" placeholder="Dirección">
+        <br><br>
+        <label for="correo">Ingresa tu Correo</label><br>
+        <input type="email" id="correo" name="correo"><br><br>
+        <label for="tel1">Dinos tu Teléfono</label><br>
+        <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+        <p>Que pastel Quiere?</p>
+        <input type="checkbox" id="Cheesecake" name="Cheesecake" value="Cheesecake">
+        <label for="Cheesecake">Cheesecake</label>
+        <input type="number" id="cheesecakecuantos" name="cheesecakecuantos"><br>
+        <input type="checkbox" id="Tiramisú" name="Tiramisú" value="Tiramisú">
+        <label for="Tiramisú">Tiramisú</label>
+        <input type="number" id="Tiramisúcuantos" name="Tiramisúcuantos"><br>
+        <input type="checkbox" id="Tres Leches" name="Tres Leches" value="Tres Leches">
+        <label for="Tres Leches">Tres Leches</label>
+        <input type="number" id="Tres Lechescuantos" name="Tres Lechescuantos"><br>
+        <input type="checkbox" id="Tarta de Santiago" name="Tarta de Santiago" value="Tarta de Samtiago">
+        <label for="Tarta de Santiago">Tarta de Santiago</label>
+        <input type="number" id="Tarta de Santiagocuantos" name="Tarta de Santiagocuantos"><br>
+        <input type="checkbox" id="Ópera" name="Ópera" value="Ópera">
+        <label for="Ópera">Ópera</label>
+        <input type="number" id="Óperacuantos" name="Óperacuantos"><br>
+        <input type="checkbox" id="Chocolate" name="Chocolate" value="Chocolate">
+        <label for="Chocolate">Chocolate</label>
+        <input type="number" id="Chocolate" name="Chocolate"><br>
+        <h2>Ingredientes extra</h2>
+    <label for="Fruta">Elige tu adorno favorito</label><br>
+    <input list="Fruta">
+    <datalist id="Fruta">
+        <option value="Fresa">
+        <option value="Manzana">
+        <option value="Duraznos">
+        <option value="Mango">
+        <option value="Kiwwi">
+        <option value="Cereza">
+    </datalist>
+    <br><br>
+
+    <h2>Cobertura de Chocolate</h2>
+    <label for="TipoChocolate">Elige tu cubierta</label><br>
+    <input list="TipoChocolate">
+    <datalist id="TipoChocolate">
+        <option value="Amargo">
+        <option value="Negro">
+        <option value="Blanco">
+        <option value="Ninguno">
+    </datalist>
+    <br><br>
+    <input type="reset">
+    <a href="./Pastelero.html">
+    <input type="submit">
+    </a>
+    <br><br>
+
+    </form>
+
+
+</body>
+</html>
